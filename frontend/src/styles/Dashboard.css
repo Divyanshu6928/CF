@@ -41,7 +41,6 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 2rem;
-  /* background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #16213e 100%); */
   min-height: 100vh;
   position: relative;
 }
@@ -94,10 +93,6 @@ body {
   letter-spacing: -0.02em;
 }
 
-/* @keyframes textGlow {
-  0% { filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.5)); }
-  100% { filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.7)); }
-} */
 
 .highlight {
   color: var(--neon-green);

@@ -419,8 +419,8 @@ body {
   font-weight: 700;
   letter-spacing: -0.02em;
   background: linear-gradient(135deg, var(--neon-blue), var(--neon-purple));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
   background-clip: text;
   animation: textGlow 2s ease-in-out infinite alternate;
 }
