@@ -18,7 +18,7 @@ export const api = {
   },
 
   getRecentActivity: async (cfHandle) => {
-  const response = await fetch(`http://localhost:5000/api/users/${cfHandle}/recent-activity`);
+  const response = await fetch(`${API_BASE}/users/${cfHandle}/recent-activity`);
   return response.json();
   },
 
