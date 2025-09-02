@@ -1,7 +1,8 @@
 const API_BASE =
   process.env.NODE_ENV === "production"
-    ? "https://cf-ka65.onrender.com/api"
-    : "http://localhost:5000/api";
+    ? "https://cf-ka65.onrender.com"
+    : "http://localhost:5000";
+
 
 
 export const api = {
