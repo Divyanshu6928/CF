@@ -10,7 +10,7 @@ def get_db_connection():
 def init_db():
     conn = get_db_connection()
     
-    # Users table
+    # Users table   
     conn.execute('''
         CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
